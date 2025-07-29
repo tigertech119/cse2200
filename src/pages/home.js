@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="text-center">
       <h2>Home Page</h2>
-      <h1 className={styles.heading}>Welcome to the Home Page</h1>
+      <h1 className={styles.heading}>Welcome to My Home Page</h1> {/* Changed text */}
       <Button variant="primary" className="m-2">
         Stay on Home
       </Button>
