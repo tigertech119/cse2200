@@ -10,31 +10,31 @@ const Home = () => {
   const commentsPerPage = 5;
   const totalComments = 20;
 
-  // Sample comments data (static, no database)
+  /// some sample comments are given below 
   const comments = [
-    { id: 1, author: 'Author Name, 7 January 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 2, author: 'Author Name, 10 February 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 3, author: 'Author Name, 10 February 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 4, author: 'Author Name, 12 March 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 5, author: 'Author Name, 15 April 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 6, author: 'Author Name, 20 May 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 7, author: 'Author Name, 25 June 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 8, author: 'Author Name, 30 July 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 9, author: 'Author Name, 5 August 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 10, author: 'Author Name, 10 September 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 11, author: 'Author Name, 15 October 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 12, author: 'Author Name, 20 November 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 13, author: 'Author Name, 25 December 2025', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 14, author: 'Author Name, 30 January 2026', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 15, author: 'Author Name, 5 February 2026', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 16, author: 'Author Name, 10 March 2026', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 17, author: 'Author Name, 15 April 2026', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 18, author: 'Author Name, 20 May 2026', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 19, author: 'Author Name, 25 June 2026', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
-    { id: 20, author: 'Author Name, 30 July 2026', text: 'Lorem ipsum Dolor Lorem ipsum Dolor...' },
+    { id: 1, author: 'Author Name, 7 January 2025', text: 'This webpage is not good at all ' },
+    { id: 2, author: 'Author Name, 10 February 2025', text: ' Nice works men ' },
+    { id: 3, author: 'Author Name, 10 February 2025', text: 'this needs alot of work ' },
+    { id: 4, author: 'Author Name, 12 March 2025', text: 'lazy genz are just the worst ' },
+    { id: 5, author: 'Author Name, 15 April 2025', text: 'noice.' },
+    { id: 6, author: 'Author Name, 20 May 2025', text: ' belissimo ..' },
+    { id: 7, author: 'Author Name, 25 June 2025', text: ' vai amr website ta ki baniyediben .' },
+    { id: 8, author: 'Author Name, 30 July 2025', text: 'ak dui tin char ahbab vai er mon udar ' },
+    { id: 9, author: 'Author Name, 5 August 2025', text: 'really nothing special ' },
+    { id: 10, author: 'Author Name, 10 September 2025', text: 'expectation was quite high got disappointed ' },
+    { id: 11, author: 'Author Name, 15 October 2025', text: 'Make the website much more interesting plz' },
+    { id: 12, author: 'Author Name, 20 November 2025', text: 'grammer chachato vai ke cse te vorti korale ja hoy ' },
+    { id: 13, author: 'Author Name, 25 December 2025', text: ' Build it like you want to win ' },
+    { id: 14, author: 'Author Name, 30 January 2026', text: 'Vai ami vule dui minute age amr phone number ' },
+    { id: 15, author: 'Author Name, 5 February 2026', text: 'my phone number is 01651612165165' },
+    { id: 16, author: 'Author Name, 10 March 2026', text: 'nothing flashy but atleast it works men ' },
+    { id: 17, author: 'Author Name, 15 April 2026', text: 'I am amazed what can be achieved .' },
+    { id: 18, author: 'Author Name, 20 May 2026', text: 'Best wishes men  ' },
+    { id: 19, author: 'Author Name, 25 June 2026', text: 'Anonymous comment korar thakle valo hoto ' },
+    { id: 20, author: 'Author Name, 30 July 2026', text: 'hebbi hoyeche bro' },
   ];
 
-  // Pagination logic
+  // pagination stuff is written here 
   const indexOfLastComment = currentPage * commentsPerPage;
   const indexOfFirstComment = indexOfLastComment - commentsPerPage;
   const currentComments = comments.slice(indexOfFirstComment, indexOfLastComment);
@@ -55,7 +55,7 @@ const Home = () => {
       <div className="card mb-3">
         <div className="card-body">
           <p className="card-text">
-            Lorem ipsum Dolor Lorem ipsum Dolor Lorem ipsum Dolor Lorem ipsum Dolor Lorem ipsum Dolor
+            Welcome to my home page , we are going to explore a tech cave built by a newbie in cse . But 
           </p>
           <div style={{ height: '150px', backgroundColor: 'maroon' }} className="mb-3"></div>
           <Link to="/about" className="text-primary fw-bold">
