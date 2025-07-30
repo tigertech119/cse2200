@@ -57,9 +57,9 @@ const Home = () => {
           <p className="card-text">
             Welcome to my home page , we are going to explore a tech cave built by a newbie in cse . But we have a long way to go and learning is just the fun part of it 
           </p>
-          <div style={{ height: '150px', backgroundColor: 'blue' }} className="mb-3"></div>
+          <div style={{ height: '150px', backgroundColor: 'green' }} className="mb-3"></div>
           <Link to="/about" className="text-primary fw-bold">
-            <span className="badge bg-primary">Author Name</span> <small>7 January 2025</small>
+            <span className="badge bg-primary">Author Name</span> <small>7 July 2025</small>
           </Link>
         </div>
         <div className="card-footer bg-light">
