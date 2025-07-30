@@ -12,10 +12,10 @@ const Home = () => {
 
   /// some sample comments are given below 
   const comments = [
-    { id: 1, author: 'Author Name, 7 January 2025', text: 'This webpage is not good at all ' },
-    { id: 2, author: 'Author Name, 10 February 2025', text: ' Nice works men ' },
-    { id: 3, author: 'Author Name, 10 February 2025', text: 'this needs alot of work ' },
-    { id: 4, author: 'Author Name, 12 March 2025', text: 'lazy genz are just the worst ' },
+    { id: 1, author: 'Author Name, 7 January 2025', text: 'This webpage is working fine ' },
+    { id: 2, author: 'Author Name, 10 February 2025', text: ' Nice work men ' },
+    { id: 3, author: 'Author Name, 10 February 2025', text: 'this needs alot of style ' },
+    { id: 4, author: 'Author Name, 12 March 2025', text: 'Expecting some interesting and fantastic changes to this website ' },
     { id: 5, author: 'Author Name, 15 April 2025', text: 'noice.' },
     { id: 6, author: 'Author Name, 20 May 2025', text: ' belissimo ..' },
     { id: 7, author: 'Author Name, 25 June 2025', text: ' vai amr website ta ki baniyediben .' },
@@ -55,9 +55,9 @@ const Home = () => {
       <div className="card mb-3">
         <div className="card-body">
           <p className="card-text">
-            Welcome to my home page , we are going to explore a tech cave built by a newbie in cse . But 
+            Welcome to my home page , we are going to explore a tech cave built by a newbie in cse . But we have a long way to go and learning is just the fun part of it 
           </p>
-          <div style={{ height: '150px', backgroundColor: 'maroon' }} className="mb-3"></div>
+          <div style={{ height: '150px', backgroundColor: 'blue' }} className="mb-3"></div>
           <Link to="/about" className="text-primary fw-bold">
             <span className="badge bg-primary">Author Name</span> <small>7 January 2025</small>
           </Link>
